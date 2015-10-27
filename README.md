@@ -13,7 +13,7 @@ See the [example](http://cmulders.github.io/Leaflet.UrlView/examples/example.htm
 Most major browsers (IE10+). [Can I Use?](http://caniuse.com/#feat=history)
 
 ## Usage
-Just include the `Map.UrlView.js` file from the `src/` dir in your page and set the `urlView` options of the map:
+Just include the `Map.UrlView.js` file from the `src/` dir in your page and set the `urlView` option of the map:
 ```js
 var map = L.map('map', {
     center: [51.505, -0.09],
@@ -28,7 +28,7 @@ if (!map.options.urlView || !map.urlView.viewLoaded()) {
 ```
 
 ## API
-
+This plugin extends `L.Handler` and those methods are also available
 ### L.Map
 Leaflet.UrlView adds options and events to the `L.Map` object.
 #### Options
