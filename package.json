@@ -4,7 +4,7 @@
   "description": "Leaflet plugin to keep the current view updated in the url.",
   "main": "src/Map.UrlView.js",
   "demos": [
-    "http://cmulders.github.io/Leaflet.Zoomify/examples/hubble-image.html"
+    "http://cmulders.github.io/Leaflet.UrlView/examples/example.html"
   ],
   "scripts": {
     "lint": "eslint src test",
